@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>  
+    function validateform(){  
+    var name=document.getElementById(name);  
+    var password=document.getElementById(password);   
+    if (name==null || name=="")
+    {  
+      alert("Name can't be blank");  
+      return false;  
+    }
+    else if(password.length<5){  
+       
+      }  
+    }  
+    </script>   
+<body>
+   <center><u><h1 style="color: brown;">Form Validation</h1></u></center>
+     <form name="myform" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return " onsubmit="return validateform()" >
+        Name: <input type="text" name="name"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        <input type="submit" value="register">  
+</form>  
+</body>
+</html>
